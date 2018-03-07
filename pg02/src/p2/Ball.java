@@ -39,7 +39,11 @@ public class Ball {
 		
 		reflect();
 		
-		//TODO Check postcondition
+		assert invariante1():"Una bola se ha salido del tablero.";
+	}
+	
+	private boolean invariante1() {
+		return x>= 0 && x<=Billiards.Width && y >=0 && y<= Billiards.Height;
 	}
 
 	private void reflect() {
