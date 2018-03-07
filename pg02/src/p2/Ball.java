@@ -3,8 +3,8 @@ import java.awt.Image;
 import javax.swing.ImageIcon;
 //TODO Transform the code to be used safely in a concurrent context.  
 public class Ball {
-       //TODO  Find an archive named Ball.png 
-	private String Ball = "Ball.png"; 
+     
+	private String Ball = "/sc/img/Ball.png"; 
 
 	private double x,y,dx,dy;
 	private double v,fi;
@@ -15,7 +15,7 @@ public class Ball {
 		ImageIcon ii = new ImageIcon(this.getClass().getResource(Ball));
 		image = ii.getImage();
 		
-		//TODO Depend of image size
+
 		IMG_TAM_X = 32;
 		IMG_TAM_Y = 32;
 
