@@ -1,10 +1,8 @@
-package p2;
 import java.awt.Image;
 import javax.swing.ImageIcon;
 //TODO Transform the code to be used safely in a concurrent context.  
-public class Ball {
-     
-	private String Ball = "/sc/img/Ball.png"; 
+public class Ball { 
+	private String Ball ="Ball.png"; 
 
 	private double x,y,dx,dy;
 	private double v,fi;

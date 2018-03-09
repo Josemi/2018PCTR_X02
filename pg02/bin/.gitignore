@@ -1,2 +1,9 @@
-/Billar/
 /p2/
+/rsc/
+/Ball.class
+/Ball.png
+/Billiards$StartListener.class
+/Billiards$StopListener.class
+/Billiards.class
+/Board.class
+/HiloBall.class
